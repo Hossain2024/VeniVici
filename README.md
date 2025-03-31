@@ -90,7 +90,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://www.loom.com/share/041081878e6c46e3b30b75bfcc7ae080?sid=f78a0734-95b5-4554-8d7c-80a9102ee32f
+[https://www.loom.com/share/041081878e6c46e3b30b75bfcc7ae080?sid=f78a0734-95b5-4554-8d7c-80a9102ee32f](https://www.loom.com/share/9019cd4d6e5b4037a0a0024d0d28b1be?sid=e27d64cf-e8ba-4d0e-8f73-2b028e8d1037)
 
 
 <!-- Replace this with whatever GIF tool you used! -->
