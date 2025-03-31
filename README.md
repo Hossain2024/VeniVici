@@ -102,7 +102,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+the app was working and it fetched data properly . however when I killed the app and tried to rerun without any code changes it was not fetching the data properly and the labels showed unknown
 
 ## License
 
