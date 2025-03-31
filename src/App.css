@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url("src/assets/backgorund.jpg") ;
+  background-image : fixed;
+  background-size: cover;
+  overflow-y: auto;
+  
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-panel {
+  width: 20%;
+  background-color: rgba(173, 216, 230, 0.7);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top:20%;
+  height: 80%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(0, 0, 0, 0.1); 
+  transform: translateZ(0); 
+  border-radius: 25px;
+  
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.right-panel {
+  width: 20%;
+  background-color:  gainsboro;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 25px;
+  position: relative;
+  top:2%
 }
 
-.card {
-  padding: 2em;
+.middle-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: center;
+  align-items: center;
+  position: relative;
+  top: 20%;
+  height: 80%;
+  width: 58%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 25px;
 }
-
-.read-the-docs {
-  color: #888;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px; /* Optional: adds rounded corners */
+  object-fit: contain; /* Ensures the whole image is visible */
 }
