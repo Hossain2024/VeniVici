@@ -10,8 +10,7 @@ function App() {
     name: "",
   });
 
-  const [selectedFilters, setSelectedFilters] = useState([]); 
-  const [banList, setBanList] = useState([]); 
+  const [banList, setBanList] = useState([]); // Stores banned attributes
 
   // Fetch the API data
   const callAPI = async () => {
@@ -58,6 +57,11 @@ function App() {
       // Add to ban list
       setBanList((prevBanList) => [...prevBanList, filterValue]);
     }
+  };
+
+  // Handle unbanning an attribute (removes from ban list)
+  const handleUnbanClick = (filterValue) => {
+    setBanList(banList.filter((item) => item !== filterValue));
   };
 
   return (
@@ -107,7 +111,9 @@ function App() {
         {banList.length > 0 ? (
           <ul>
             {banList.map((ban, index) => (
-              <li key={index}>{ban}</li>
+              <li key={index} onClick={() => handleUnbanClick(ban)}>
+                {ban} (Click to unban)
+              </li>
             ))}
           </ul>
         ) : (
