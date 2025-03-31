@@ -90,7 +90,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://www.loom.com/share/041081878e6c46e3b30b75bfcc7ae080?sid=f78a0734-95b5-4554-8d7c-80a9102ee32f
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
